@@ -1,0 +1,38 @@
+@font-face {
+
+    font-family: 'HK Grotesk';
+    src: url('./font/hkfont/HKGrotesk-Bold.eot');
+    src: url('./font/hkfont/HKGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./font/hkfont/HKGrotesk-Bold.woff2') format('woff2'),
+        url('./font/hkfont/HKGrotesk-Bold.woff') format('woff'),
+        url('./font/hkfont/HKGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.hk{
+    font-family: 'HK Grotesk';
+    
+    /* font-weight: ; */
+}
+.hk-lyt{
+    font-weight: 400;
+}
+
+.os{
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+.owl-prev{
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #959EAD;
+    cursor: pointer;
+}
+.owl-next{
+    border-radius: 50%;
+    padding: 10px;
+    color: #183B56;
+    cursor: pointer;
+}
