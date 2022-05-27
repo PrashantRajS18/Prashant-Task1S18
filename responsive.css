@@ -125,6 +125,10 @@
   .mt-100 {
     margin-top: 1343px;
 }
+.para-sec1{
+  /* margin-top: 18px; */
+  width: 100%;
+}
 .sec3-p {
   font-size: 17px;
 }
@@ -157,6 +161,9 @@
     margin-left: 5px;
   
  }
+ .head1{
+   font-size: 44px;
+ }
  .container{
   margin-left: 100px;
   margin-right: 100px;
@@ -183,6 +190,9 @@
 }
 }
 @media (max-width:600px){
+  .head1{
+    font-size: 30px;
+  }
   .date-banner{
     padding: 2px;
     top: 35%;
@@ -224,6 +234,7 @@
     top: 40%;
     left: 37%;
 }
+
 .sec5_play1{
   top: 41%;
   left: 38%;
