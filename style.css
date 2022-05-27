@@ -7,7 +7,6 @@
 .container{
     margin-left: 100px;
     margin-right: 100px;
-    /* padding: 26px;  */
 }
 .container-fluid{
     /* margin-top: 40px; */
@@ -15,71 +14,62 @@
     margin-right: 0px;
 }
 
-  /* NAVBAR MENU */
-
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: white;
-   }
-   .nav-links{
-    list-style: none;
-   }
-   .nav-links a {
-    padding: 15px;
-    text-decoration: none;
-    color: #183B56;
-    font-weight: 600;
-    font-size: 16px;
-   }
-   /* LOGO */
-   .logo {
-    font-size: 32px;
-   }
  
-   .menu {
-    display: flex;
-    align-items: center;
-   
-    font-size: 16px;
-   }
-   .btn{
+.btn{
     background: transparent;
     padding: 10px;
     cursor: pointer;
     border: 2px solid #1565D8;
-    color: #1565D8;
+    color: #1565D8 !important;
     text-align: center;
     font-weight: 700;
 font-size: 16px;
     border-radius: 12px;
 } 
-   /* DROPDOWN MENU */
-   .services {
-    position: relative; 
-   }
-   .dropdown {
-    background-color: #f0fcfc;
-    position: absolute; 
-    display: none;
-    border-radius: 8px;
-    top: 25px;
-   }
-   
-   .dropdown li {
-    list-style: none;
-    padding: 10px;
-    width: 30%;
-    text-align: center;
-   }
-   
-   .services:hover .dropdown {
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .logo {
+    font-size: 1.8rem;
+    color: rgb(5, 5, 116);
+    padding-left: 20px;
+  }
+  .hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  .hamburger .line {
     display: block;
-   }
-
-
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: black;
+  }
+    .nav__link {
+        position: absolute;
+        width: 94%;
+        top: 5rem;
+        left: 40px;
+        background-color: lightblue;
+      }
+  .nav__link a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Open Sans';
+font-weight: 600;
+color: #183B56;
+    padding: 10px 0;
+    font-size: 16px;
+  }
+  .hide {
+    display: none;
+  }
 /* navbar css end */
 .a{
     text-decoration: none;
@@ -322,6 +312,8 @@ text-align: center;
 }
 .img-sec6{
     padding: 40px;
+    width: 50%;
+    height: 50%;
 }
 .price{
     position: absolute;
@@ -338,6 +330,7 @@ text-align: center;
 .owl-carousel{
     padding-left: 0px;
 }
+
 .item{
     width: 90%;
     position: relative;
@@ -378,6 +371,10 @@ text-align: center;
     border-radius: 8px;
 }
 .card-label{
+    display: flex;
+    justify-content: space-between;
+}
+.card-footer{
     display: flex;
     justify-content: space-between;
 }
@@ -436,6 +433,9 @@ color: #5A7184;
   .mt-10{
       margin-top: 10px;
   }
+  .mt-30{
+      margin-top: 40px;
+  }
   .p-15{
     padding-left: 8px;
 }
@@ -466,15 +466,6 @@ color: #5A7184;
   .d-hyt{
       height: 280px;
   }
-
-
-
-
-
-
-
-
-  
 /* footer css */
 .footer{
     background: #0D2436;
