@@ -315,6 +315,18 @@
 .owl-item {
   width: 400px !important ;
 }
+.owl-prev{
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #959EAD;
+    cursor: pointer;
+}
+.owl-next{
+    border-radius: 50%;
+    padding: 10px;
+    color: #183B56;
+    cursor: pointer;
+}
 .owl-next{
     margin-left: 10px;
 }
