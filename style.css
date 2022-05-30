@@ -185,9 +185,11 @@
 }
 .card1:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 .card2:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 .card-text {
   margin-top: 10px;
@@ -321,6 +323,7 @@
 .bg-clr {
   background-color: #f9fbfe;
 }
+
 .sec7-center {
   text-align: center;
 }
@@ -344,6 +347,11 @@
 .card-sec7 {
   background-color: white;
   border-radius: 8px;
+  transition: ease-in-out .5s;
+}
+.card-sec7:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 .card-label {
   display: flex;

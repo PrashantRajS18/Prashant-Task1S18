@@ -1,6 +1,6 @@
 /* APPLYING MEDIA QUERIES */
 
-@media screen and (min-width: 1260px) {
+@media  (min-width: 1260px) {
   .nav__link {
     display: block;
     position: static;
@@ -100,6 +100,11 @@
     flex-wrap: wrap;
   }
 
+  .sec6{
+    text-align: center;
+    margin-left: 0px;
+  }
+
   .item {
     width: 65%;
     position: relative;
@@ -125,6 +130,8 @@
     font-size: 25px;
   }
 }
+
+
 @media (max-width: 1000px) {
   .btn-sec5-2 {
     margin-top: 0px;
@@ -140,6 +147,8 @@
     margin-left: 250px;
   }
 }
+
+
 @media (max-width: 950px) {
   .mt-100 {
     margin-top: 1343px;
@@ -159,6 +168,8 @@
     margin-left: 100px;
   }
 }
+
+
 @media (max-width: 850px) {
   .card-sec7 h2 {
     font-size: 16px;
@@ -177,6 +188,8 @@
     left: 58px;
   }
 }
+
+
 @media (max-width: 780px) {
   .btn-sec5-2 {
     margin-top: 10px;
@@ -211,6 +224,8 @@
     margin-left: 100px;
   }
 }
+
+
 @media (max-width: 600px) {
   .head1 {
     font-size: 30px;
@@ -245,9 +260,7 @@
     top: 40%;
     left: 40%;
   }
-  .sec6 {
-    margin-left: 44px;
-  }
+  
 }
 @media (max-width: 440px) {
   .date-banner {
@@ -268,9 +281,7 @@
     top: 36%;
     left: 37%;
   }
-  .sec6 {
-    margin-left: 25px;
-  }
+  
   .nav__link {
     width: 100%;
     top: 5rem;
