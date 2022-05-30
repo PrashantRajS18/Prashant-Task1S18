@@ -80,6 +80,10 @@
   .sec5-flex {
     flex-wrap: wrap;
   }
+  .sec5_play {
+    top: 42%;
+    left: 44%;
+  }
   .p {
     width: 100%;
   }
